@@ -1,9 +1,9 @@
-Ant Hello World Demo
-====================
+Ant Merge Jars Demo
+===================
 
 ```
 brew install ant
 ant hello
 ```
 
-Will echo `Hello, ant!` in console.
+Check `build` directory and see the two generated jars.

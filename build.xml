@@ -1,5 +1,10 @@
 <project>
-  <target name="hello">
-    <echo message="Hello, ant!" />
-  </target>
+    <target name="hello">
+        <zip destfile="build/direct-children.jar">
+            <zipgroupfileset dir="libs" includes="*.jar"/>
+        </zip>
+        <zip destfile="build/all.jar">
+            <zipgroupfileset dir="libs" includes="**/*.jar"/>
+        </zip>
+    </target>
 </project>
